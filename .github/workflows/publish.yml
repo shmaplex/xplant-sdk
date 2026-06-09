@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # needed to create a GitHub Release
+      contents: write  # create GitHub Release
+      id-token: write  # OIDC trusted publishing — no stored npm token needed
 
     steps:
       - uses: actions/checkout@v4
@@ -36,11 +37,7 @@ jobs:
         run: npm run build
 
       - name: Publish to npm
-        run: npm publish --access public
-        env:
-          # Add NPM_TOKEN as a repository secret in GitHub Settings → Secrets → Actions.
-          # Generate an Automation token at https://www.npmjs.com/settings/shmaplex/tokens
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --access public --provenance
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
