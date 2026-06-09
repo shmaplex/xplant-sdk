@@ -1,8 +1,8 @@
 <p align="center">
-  <img src=".github/github-header.png" alt="xplant_os" width="full"/>
+  <img src=".github/github-header.png" alt="xplant_sdk" width="full"/>
 </p>
 <p align="center">
-Official JavaScript/TypeScript SDK for the [xPlant](https://xplant.shmaplex.com) external API.
+Official JavaScript/TypeScript SDK for the [xPlant](https://xplantpro.com) external API.
 </p>
 
 ---
