@@ -1,7 +1,11 @@
-# @shmaplex/xplant-sdk
-
+<p align="center">
+  <img src=".github/github-header.png" alt="xplant_os" width="full"/>
+</p>
+<p align="center">
 Official JavaScript/TypeScript SDK for the [xPlant](https://xplant.shmaplex.com) external API.
+</p>
 
+---
 Connect sensors, Raspberry Pis, Arduino devices, scripts, and external tools to your xPlant lab workspace.
 
 [![npm version](https://img.shields.io/npm/v/@shmaplex/xplant-sdk)](https://www.npmjs.com/package/@shmaplex/xplant-sdk)
