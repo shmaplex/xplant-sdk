@@ -6,7 +6,7 @@ Connect sensors, Raspberry Pis, Arduino devices, scripts, and external tools to 
 
 [![npm version](https://img.shields.io/npm/v/@shmaplex/xplant-sdk)](https://www.npmjs.com/package/@shmaplex/xplant-sdk)
 [![CI](https://github.com/shmaplex/xplant-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/shmaplex/xplant-sdk/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: CSL v1.1](https://img.shields.io/badge/license-CSL%20v1.1-green)](https://github.com/shmaplex/csl)
 
 > **Note:** This package is temporarily published as `@shmaplex/xplant-sdk`.
 > It will be re-published as `@xplant/sdk` once the `@xplant` npm org is available.
@@ -191,4 +191,15 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Issues and PRs welcome.
 
 ## License
 
-[MIT](LICENSE) © Shmaplex
+Licensed under the [Common Sense License (CSL) v1.1](https://github.com/shmaplex/csl).
+
+- Free for individuals, nonprofits, researchers, and businesses under $10M revenue.
+- Large-scale commercial users must contribute back proportionally (13.37% of attributable revenue).
+- Ethical use restrictions apply.
+
+```
+Copyright (C) 2025 Shmaplex
+
+This source code is licensed under the Common Sense License (CSL) v1.1.
+You may obtain a copy of the license at: https://github.com/shmaplex/csl
+```
